@@ -1,0 +1,195 @@
+
+-------------------------
+2023-05-26 12:21:51.013840: Пользователь Alex авторизовался
+-------------------------
+2023-05-27 12:33:46.426267: Пользователь Alex авторизовался
+-------------------------
+2023-05-27 12:34:26.396639: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'mkdir pract'
+-------------------------
+2023-05-27 12:34:26.398635: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено '
+'
+-------------------------
+2023-05-27 12:34:43.118310: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'cd pract'
+-------------------------
+2023-05-27 12:34:43.119291: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено '
+'
+-------------------------
+2023-05-27 12:39:40.444795: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'рудз'
+-------------------------
+2023-05-27 12:39:40.445766: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено 'incorrect request
+'
+-------------------------
+2023-05-27 12:39:42.938493: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'help'
+-------------------------
+2023-05-27 12:39:42.938493: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено 'pwd - выводит путь текущего каталога
+ls DIRECTORY- выводит содержимое каталога
+cd DIRECTORY- изменяет текущий каталог
+mkdir DIRECTORY - создает каталог
+rm PATH - удаляет директорию или каталог
+mv SOURCE DESTINATION - перемещает или переименовывает файл
+cp SOURCE DESTINATION - копирует файл в директорию
+cat FILE - выводит содержимое файла
+touch FILE - создает пустой файл
+write FILE TEXT - добавляет текст в файл
+free - выводит информацию о памяти
+exit - разрыв соединения с сервером
+help - выводит справку по командам
+'
+-------------------------
+2023-05-27 12:53:05.773488: Пользователь test авторизовался
+-------------------------
+2023-05-27 12:53:05.774486: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'pwd'
+-------------------------
+2023-05-27 12:53:05.774486: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '\
+'
+-------------------------
+2023-05-27 12:53:05.882290: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'ls'
+-------------------------
+2023-05-27 12:53:05.882290: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:05.993249: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'mkdir new_dir'
+-------------------------
+2023-05-27 12:53:05.994174: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.103383: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cd new_dir'
+-------------------------
+2023-05-27 12:53:06.104381: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.214612: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'touch new_file'
+-------------------------
+2023-05-27 12:53:06.216564: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.324744: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'mv new_file.txt renamed_file.txt'
+-------------------------
+2023-05-27 12:53:06.325738: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.434378: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'write renamed_file.txt some text'
+-------------------------
+2023-05-27 12:53:06.436374: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.545055: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cat renamed_file.txt'
+-------------------------
+2023-05-27 12:53:06.546052: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено 'some text
+'
+-------------------------
+2023-05-27 12:53:06.656757: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'rm renamed_file.txt'
+-------------------------
+2023-05-27 12:53:06.657756: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.767477: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cd ~'
+-------------------------
+2023-05-27 12:53:06.768459: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.879173: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'rm new_dir'
+-------------------------
+2023-05-27 12:53:06.880161: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 12:53:06.991861: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено ''
+-------------------------
+2023-05-27 12:53:06.992859: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено 'incorrect request
+'
+-------------------------
+2023-05-27 14:37:07.700645: Пользователь Alex авторизовался
+-------------------------
+2023-05-27 14:37:14.799475: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'help'
+-------------------------
+2023-05-27 14:37:14.799475: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено 'pwd - выводит путь текущего каталога
+ls DIRECTORY- выводит содержимое каталога
+cd DIRECTORY- изменяет текущий каталог
+mkdir DIRECTORY - создает каталог
+rm PATH - удаляет директорию или каталог
+mv SOURCE DESTINATION - перемещает или переименовывает файл
+cp SOURCE DESTINATION - копирует файл в директорию
+cat FILE - выводит содержимое файла
+touch FILE - создает пустой файл
+write FILE TEXT - добавляет текст в файл
+free - выводит информацию о памяти
+exit - разрыв соединения с сервером
+help - выводит справку по командам
+'
+-------------------------
+2023-05-27 14:37:29.354225: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'mkdir proect555'
+-------------------------
+2023-05-27 14:37:29.356220: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено '
+'
+-------------------------
+2023-05-27 14:37:35.489527: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'cd proect555'
+-------------------------
+2023-05-27 14:37:35.489527: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено '
+'
+-------------------------
+2023-05-27 14:38:03.101860: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex получено 'touch file1234'
+-------------------------
+2023-05-27 14:38:03.103635: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\Alex отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.110057: Пользователь test авторизовался
+-------------------------
+2023-05-27 14:39:31.111365: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'pwd'
+-------------------------
+2023-05-27 14:39:31.111365: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '\
+'
+-------------------------
+2023-05-27 14:39:31.222125: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'ls'
+-------------------------
+2023-05-27 14:39:31.222940: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.333688: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'mkdir new_dir'
+-------------------------
+2023-05-27 14:39:31.335635: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.445878: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cd new_dir'
+-------------------------
+2023-05-27 14:39:31.446875: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.553587: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'touch new_file'
+-------------------------
+2023-05-27 14:39:31.555582: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.664471: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'mv new_file.txt renamed_file.txt'
+-------------------------
+2023-05-27 14:39:31.666288: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.775051: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'write renamed_file.txt some text'
+-------------------------
+2023-05-27 14:39:31.777048: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:31.885755: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cat renamed_file.txt'
+-------------------------
+2023-05-27 14:39:31.886753: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено 'some text
+'
+-------------------------
+2023-05-27 14:39:31.995568: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'rm renamed_file.txt'
+-------------------------
+2023-05-27 14:39:31.996567: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:32.106272: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'cd ~'
+-------------------------
+2023-05-27 14:39:32.107273: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:32.214093: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено 'rm new_dir'
+-------------------------
+2023-05-27 14:39:32.215438: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено '
+'
+-------------------------
+2023-05-27 14:39:32.323800: От пользователя C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test получено ''
+-------------------------
+2023-05-27 14:39:32.324799: Пользователю C:\Users\Алексей\Desktop\session_4\pract_prog\Лаба 7\5_FTP_server-master\docs\test отправлено 'incorrect request
+'
